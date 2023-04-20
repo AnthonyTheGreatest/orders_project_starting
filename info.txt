@@ -1,2 +1,15 @@
 https://www.codecademy.com/journeys/full-stack-engineer/paths/fscj-22-back-end-development/tracks/fscj-22-api-development-with-swagger-and-openapi/modules/wdcp-22-design-and-document-apis-with-openapi-swagger-b5ed0e68-16f7-478f-9bed-847803b52b3b/articles/designing-and-documenting-an-api-with-swagger
 https://github.com/swagger-api/swagger-editor
+
+(get)
+npm run dev
+http://localhost:3000/orders
+
+(post)
+curl --header "Content-Type: application/json" -d "@new_order.json" http://localhost:3000/neworder
+
+(put)
+curl -X PUT -d complete http://localhost:3000/update/001
+
+(delete)
+curl -X DELETE http://localhost:3000/delete/002
